@@ -10,6 +10,7 @@ const Post = props => {
   // This is the state for the likes, if you pass the state correctly, the heart button should increase the likes
   
     const [likes, setLikes] = useState(post.likes);
+    const [comments, setComments] = useState(post.comments);
     
  // Function to increase the number of likes
   
@@ -31,9 +32,12 @@ const Post = props => {
         />
       </div>
       {/* Is LikeSection getting all the props it needs to work correctly? */}
-      <LikeSection incrementLikes={incrementLikes} />
+      <LikeSection incrementLikes={incrementLikes}  numberOfLikes={likes}/>
+      {/**waxa waaye name-props loo diray likeSectionka  */}
+
       {/* Comments also wants its props! */}
-      <Comments />
+      <Comments comments={comments}/>
+
     </div>
   );
 };

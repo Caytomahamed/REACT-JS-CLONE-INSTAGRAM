@@ -54,6 +54,66 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3,
+        username: "farhan",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://live.staticflickr.com/4462/26208278259_1ba6b4949b_b.jpg',
+        likes: 4307,
+        timestamp: "July 15th 2017, 03:12:09 pm",
+        comments: [
+            {
+                id: 40,
+                username: "salmaan",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 37,
+                username: "ismaaciil",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 41,
+                username: "sahra",
+                text: "What a setup",
+            },
+            {
+                id: 42,
+                username: "ahamed23",
+                text: "It that injustice",
+            },
+        ],
+    },
+    {
+        id: 4,
+        username: "cayto",
+        thumbnailUrl: 'https://icon2.cleanpng.com/20180320/sqe/kisspng-twitch-computer-icons-streaming-media-youtube-live-tv-twitch-icon-5ab19172461392.001176751521586546287.jpg',
+        imageUrl: 'https://i.pinimg.com/originals/4c/c7/75/4cc775ae431289e9b53f7937237ed62c.jpg',
+        likes: 10307,
+        timestamp: "aug 15th 2021, 03:12:09 pm",
+        comments: [
+            {
+                id: 43,
+                username: "twitch",
+                text: "Epic Street Fighter action here in Vegas!",
+            },
+            {
+                id: 44,
+                username: "michaelmarzetta",
+                text: "Omg that match was crazy",
+            },
+            {
+                id: 45,
+                username: "themexican_leprechaun",
+                text: "What a setup",
+            },
+            {
+                id: 46,
+                username: "dennis_futbol",
+                text: "It that injustice",
+            },
+        ],
+    },
 ];
 
 export default dummyData;
